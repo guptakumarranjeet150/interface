@@ -4,8 +4,6 @@ node_modules
 .pnp.js
 
 # Local env files
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -51,3 +49,4 @@ test-results/
 # Generated OG images
 apps/docs/public/og/
 .nitro-static/og/
+config.bat
