@@ -1,5 +1,8 @@
 //  @ts-check
 
 import { tanstackConfig } from "@tanstack/eslint-config"
+import { createRequire } from 'module';
 
-export default [{ ignores: ["**/.output/**"] }, ...tanstackConfig]
+const require = createRequire(import.meta.url);
+
+export default [{ ignores: ["**/.output/**"] }, ...tanstackConfig];
